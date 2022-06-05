@@ -1,0 +1,6 @@
+name: hello-as
+namespace: default
+lang: assemblyscript
+version: ""
+apiVersion: 0.15.1
+fqfnUri: ""
