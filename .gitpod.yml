@@ -1,0 +1,26 @@
+image: k33g/sat-next-gen:0.0.0
+
+tasks:
+  - name: initialize
+    before: |
+      echo "🚀 before"
+    init: |
+      echo "🚀 init"
+
+
+ports:
+  - port: 8080
+    visibility: public
+  - port: 3000
+    visibility: public
+  - port: 5000
+    visibility: public
+
+vscode:
+  extensions:
+    - golang.go
+    - pkief.material-icon-theme
+    - rust-lang.rust
+    - bungcip.better-toml
+    - aaron-bond.better-comments
+    - grain-lang.vscode-grain
