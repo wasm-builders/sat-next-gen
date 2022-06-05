@@ -19,6 +19,7 @@ func main() {
 	
 	satFunction, _ := sat.New(wasmModuleConfig, nil)
 
+	
 	result, err := satFunction.Exec([]byte(strings.Join(wasmModuleParameters, ";")))
 	if err != nil {
 		log.Fatal(err)

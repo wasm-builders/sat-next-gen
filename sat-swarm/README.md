@@ -1,5 +1,6 @@
-# wfunc
+# sat-swarm
 
 ```bash
-./wfunc hello-js/hello-js.wasm good morning people
+curl -d "bob" http://localhost:6840
+curl -d "bob" http://localhost:4676
 ```
